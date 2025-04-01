@@ -39,7 +39,7 @@ def get_watch_data(item):
             "name": name,
             "specs": specs
         }
-        response = requests.post('https://mockend.com/Andrashko/scraping2023/Items', json=data)
+        response = requests.post('https://mockend.com/IuraDemian/scraping2023/Items', json=data)
 
         if response.status_code == 201:
             print(f"Дані для '{name}' успішно надіслані.")
